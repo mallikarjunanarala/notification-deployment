@@ -2,7 +2,8 @@ wezvanotificationapp:
   replicas: 1
   wezvanotificationapp:
     image:
-      repository: 640351538280.dkr.ecr.ap-south-1.amazonaws.com/wezvatechnotification
+      #repository: 640351538280.dkr.ecr.ap-south-1.amazonaws.com/wezvatechnotification
+      repository: 148592180366.dkr.ecr.ap-south-1.amazonaws.com/ledger-deployment
       tag: fb55
 notificationSvc:
   ports:
